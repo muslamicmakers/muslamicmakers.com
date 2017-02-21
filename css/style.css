@@ -58,7 +58,6 @@ p {
 }
 
 .typing {
-  font-family: 'Source Code Pro', monospace;
   font-size:4em;
   color: #fff;
   margin: 0;
@@ -105,5 +104,5 @@ section {
 }
 
 .team-box {
-	
+
 }
