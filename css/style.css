@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+body {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	text-align: center;
+	/* For nice colour transitions when adding classes */
+	transition: background-color 0.5s;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	/* use a temp colour to demonstrate as background is same colour */
+	padding: 20px 0;
+	/* z-index allows for moving content on the z-axis similar to layers in photoshop */
+	z-index: 10;
+}
+
+nav a {
+	color: #ffffff;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 0 30px;
+}
+
+nav a:hover {
+	color: #ffc;
+  text-decoration: none;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+h3 a {
+	color: #4A4A4A;
+}
+
+p {
+	font-weight: 300;
+}
+
+.logo {
+    height: 70px;
+}
+
+.typing {
+  font-family: 'Source Code Pro', monospace;
+  font-size:4em;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+
+.footer-copy {
+  float: left;
+}
+
+.social-icons {
+  float: right;
+}
+
+section {
+	margin: 20px 0;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  clear: both;
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */
+  url(../images/hero.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+.team-box img {
+  max-width: 200px;
+  border-radius: 100%;
+}
+
+.team-box {
+	
+}
