@@ -1,6 +1,6 @@
 $(function(){
     $(".typed").typed({
-      strings: ["Salams, we're Muslamic Makers", "We're diversifying the London tech scene."],
+      strings: ["Salams, we're Muslamic Makers."],
       typeSpeed: 20,
       backDelay: 1000,
       showCursor: false
@@ -14,13 +14,12 @@ $(document).ready(function(){
   $(document).on('scroll', function(){
     var scrolled = $(document).scrollTop() + 30;
     if (scrolled > height) {
-      $('nav').css({"background-color":"#4A4A4A"});
+      $('nav').css({"background-color":"#222"});
     } else {
       $('nav').css({"background-color":""});
     }
   });
-
-})
+});
 
 //
 // $(document).on("scroll", function () {
@@ -47,3 +46,22 @@ $(document).ready(function(){
 //   $("body").toggleClass("cubism", pixelsFromTop > 2400);
 //
 // });
+//
+// var header = $('.hero');
+// var range = $('.hero').height();
+//
+// $(window).on('scroll', function () {
+//
+//     var scrollTop = $(this).scrollTop();
+//     var offset = header.offset().top;
+//     var height = header.outerHeight();
+//     offset = offset + height / 1;
+//     var calc = 1 - (scrollTop - offset + range) / range;
+//
+//     header.css({ 'opacity': calc });
+//
+//     if ( calc > '1' ) {
+//       header.css({ 'opacity': 1 });
+//     } else if ( calc < '0' ) {
+//       header.css({ 'opacity': 0 });
+//     }

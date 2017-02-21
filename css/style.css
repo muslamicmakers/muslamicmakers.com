@@ -9,6 +9,10 @@ body {
 	transition: background-color 0.5s;
 }
 
+p	{
+		font-size: 1.2em;
+}
+
 nav {
 	position: fixed;
 	top: 0;
@@ -26,11 +30,16 @@ nav a {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	padding: 0 30px;
+	font-size: 0.9em;
 }
 
 nav a:hover {
 	color: #ffc;
   text-decoration: none;
+}
+
+.navigation {
+		vertical-align: bottom;
 }
 
 h2 {
@@ -49,12 +58,18 @@ h3 a {
 	color: #4A4A4A;
 }
 
+h4 {
+	margin-bottom: 20px;
+}
+
 p {
 	font-weight: 300;
 }
 
 .logo {
-    height: 70px;
+		height: 50px;
+		float: left;
+		margin-left: 20px;
 }
 
 .typing {
@@ -65,6 +80,11 @@ p {
   padding-top: 40vh;
 }
 
+.contact {
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #DE3C4B;
+}
 
 .footer-copy {
   float: left;
@@ -75,7 +95,7 @@ p {
 }
 
 section {
-	margin: 20px 0;
+	padding: 20px 0;
 }
 
 .hero {
@@ -86,7 +106,7 @@ section {
   margin: 0 auto;
   padding: 0;
   height: 100vh;
-  background:
+	background:
   linear-gradient(
     rgba(0, 0, 0, 0.45),
     rgba(0, 0, 0, 0.45)
@@ -98,11 +118,16 @@ section {
   background-size: cover;*/
 }
 
+
 .team-box img {
   max-width: 200px;
   border-radius: 100%;
 }
 
-.team-box {
+.events {
+	text-align: left;
+}
 
+#section3{
+	background-color: #87F5FB;
 }
