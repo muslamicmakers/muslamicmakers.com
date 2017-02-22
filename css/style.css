@@ -118,6 +118,10 @@ section {
   background-size: cover;*/
 }
 
+.event-image {
+	margin-top: 20px;
+	max-width: 100%;
+}
 
 .team-box img {
   max-width: 200px;
@@ -128,6 +132,17 @@ section {
 	text-align: left;
 }
 
-#section3{
-	background-color: #87F5FB;
+.cta-btn {
+	vertical-align: middle;
+	font-size: 1.2em;
+	width: 120px;
+}
+
+.mailchimp-field {
+	height: 50px;;
+	width: 60%;
+}
+
+.mailchimp-btn {
+	height: 50px;
 }
