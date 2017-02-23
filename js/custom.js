@@ -1,9 +1,6 @@
 $(function(){
-    $(".typed").typed({
-      strings: ["Salams, we're Muslamic Makers.^1000<br>*peace on you."],
-      typeSpeed: 20,
-      backDelay: 1000,
-      showCursor: false
+    $("#typed").typed({
+        stringsElement: $('#typed-strings')
     });
 });
 
