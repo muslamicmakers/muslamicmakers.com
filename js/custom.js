@@ -14,9 +14,11 @@ $(document).ready(function(){
   $(document).on('scroll', function(){
     var scrolled = $(document).scrollTop() + 30;
     if (scrolled > height) {
-      $('.navbar').css({"background-color": "#333"})
+      $('nav').addClass('nav-visible');
+      $('nav').removeClass('nav-transparent');
     } else {
-
+      $('nav').addClass('nav-transparent');
+      $('nav').removeClass('nav-visible');
     }
   });
 });

@@ -13,8 +13,14 @@ p	{
 		font-size: 1.2em;
 }
 
-.navbar {
+.nav-transparent {
 	background: none;
+	border: none;
+	height: 70px;
+}
+
+.nav-visible {
+	background-color: #333;
 	border: none;
 	height: 70px;
 }
