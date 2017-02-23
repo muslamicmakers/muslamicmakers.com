@@ -13,10 +13,13 @@ p	{
 		font-size: 1.2em;
 }
 
+
+/* NAVIGATION */
+
 .nav-transparent {
 	background: none;
 	border: none;
-	height: 70px;
+
 }
 
 .nav-visible {
@@ -51,6 +54,7 @@ nav a {
 	font-size: 0.9em;
 }
 
+
 h2 {
 	text-transform: uppercase;
 	font-weight: 700;
@@ -75,33 +79,8 @@ p {
 	font-weight: 300;
 }
 
-.typing {
-  font-size:4em;
-  color: #fff;
-  margin: 0;
-  text-align: center;
-  padding-top: 40vh;
-}
 
-.contact {
-	font-size: 1.5em;
-	font-weight: 600;
-	color: #DE3C4B;
-}
-
-.footer-copy {
-  float: left;
-	margin-bottom: 20px;
-}
-
-.social-icons a {
-  float: right;
-	margin-left: 30px;
-}
-
-section {
-	padding: 20px 0;
-}
+/* HERO */
 
 .hero {
   position: relative;
@@ -121,6 +100,32 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;*/
+}
+
+.typing {
+  font-size:4em;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+.salams {
+  font-size:1.5em;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+section {
+	padding: 20px 0;
+}
+
+.contact {
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #DE3C4B;
 }
 
 .event-image {
@@ -143,6 +148,41 @@ section {
 	width: 120px;
 }
 
+.goals {
+	margin: 30px 0;
+	padding: 10px;
+	background-color: #efefef;
+	border-radius: 5px;
+}
+
+.contacts {
+	background-color: #efefef;
+	padding: 10px;
+	height: 250px;
+}
+
+/*.borderfy {
+	border: 1px dashed blue;
+}*/
+
+/* FOOTER */
+
+.footer-copy {
+  float: left;
+	margin-bottom: 20px;
+}
+
+.social-icons a {
+  float: right;
+	margin-left: 30px;
+}
+
+p span {
+	font-size: 0.8em;
+}
+
+/* MAILCHIMP */
+
 .mailchimp-field {
 	height: 50px;;
 	width: 60%;
@@ -150,8 +190,4 @@ section {
 
 .mailchimp-btn {
 	height: 50px;
-}
-
-p span {
-	font-size: 0.8em;
 }

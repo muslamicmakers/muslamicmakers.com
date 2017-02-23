@@ -1,12 +1,11 @@
 $(function(){
     $(".typed").typed({
-      strings: ["Salams, we're Muslamic Makers."],
+      strings: ["Salams, we're Muslamic Makers.^1000<br>*peace on you."],
       typeSpeed: 20,
       backDelay: 1000,
       showCursor: false
     });
 });
-
 
 $(document).ready(function(){
   var height = $('.hero').height();
@@ -80,3 +79,11 @@ $('.nav-link').click(function(e){
 //     } else if ( calc < '0' ) {
 //       header.css({ 'opacity': 0 });
 //     }
+
+// if (this.attendee.timingHabits === "muslimTiming") {
+//   var startTime = "4.00pm";
+// } else if (this.attendee.timingHabits === "genericEthnicTiming") {
+//   var startTime = "5.00pm";
+// } else {
+//   var startTime = "6.00pm";
+// };
