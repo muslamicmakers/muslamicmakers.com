@@ -16,6 +16,7 @@ p	{
 .navbar {
 	background: none;
 	border: none;
+	height: 70px;
 }
 
 .navbar-right {
@@ -24,6 +25,14 @@ p	{
 
 .navbar-default .navbar-nav > li > a {
     color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #C2E7DA;
+}
+
+.logo {
+		width: 40px;
 }
 
 nav a {
@@ -58,12 +67,6 @@ h4 {
 
 p {
 	font-weight: 300;
-}
-
-.logo {
-		height: 50px;
-		float: left;
-		margin-left: 20px;
 }
 
 .typing {
