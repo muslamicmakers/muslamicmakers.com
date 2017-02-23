@@ -13,14 +13,17 @@ p	{
 		font-size: 1.2em;
 }
 
-nav {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	/* use a temp colour to demonstrate as background is same colour */
-	padding: 20px 0;
-	/* z-index allows for moving content on the z-axis similar to layers in photoshop */
-	z-index: 10;
+.navbar {
+	background: none;
+	border: none;
+}
+
+.navbar-right {
+	margin-right: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
 }
 
 nav a {
@@ -31,15 +34,6 @@ nav a {
 	letter-spacing: 1px;
 	padding: 0 30px;
 	font-size: 0.9em;
-}
-
-nav a:hover {
-	color: #ffc;
-  text-decoration: none;
-}
-
-.navigation {
-		vertical-align: bottom;
 }
 
 h2 {
@@ -88,10 +82,12 @@ p {
 
 .footer-copy {
   float: left;
+	margin-bottom: 20px;
 }
 
-.social-icons {
+.social-icons a {
   float: right;
+	margin-left: 30px;
 }
 
 section {
@@ -145,4 +141,8 @@ section {
 
 .mailchimp-btn {
 	height: 50px;
+}
+
+p span {
+	font-size: 0.8em;
 }
