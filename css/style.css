@@ -13,14 +13,35 @@ p	{
 		font-size: 1.2em;
 }
 
-nav {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	/* use a temp colour to demonstrate as background is same colour */
-	padding: 20px 0;
-	/* z-index allows for moving content on the z-axis similar to layers in photoshop */
-	z-index: 10;
+
+/* NAVIGATION */
+
+.nav-transparent {
+	background: none;
+	border: none;
+
+}
+
+.nav-visible {
+	background-color: #333;
+	border: none;
+	height: 70px;
+}
+
+.navbar-right {
+	margin-right: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #C2E7DA;
+}
+
+.logo {
+		width: 40px;
 }
 
 nav a {
@@ -33,14 +54,6 @@ nav a {
 	font-size: 0.9em;
 }
 
-nav a:hover {
-	color: #ffc;
-  text-decoration: none;
-}
-
-.navigation {
-		vertical-align: bottom;
-}
 
 h2 {
 	text-transform: uppercase;
@@ -66,37 +79,8 @@ p {
 	font-weight: 300;
 }
 
-.logo {
-		height: 50px;
-		float: left;
-		margin-left: 20px;
-}
 
-.typing {
-  font-size:4em;
-  color: #fff;
-  margin: 0;
-  text-align: center;
-  padding-top: 40vh;
-}
-
-.contact {
-	font-size: 1.5em;
-	font-weight: 600;
-	color: #DE3C4B;
-}
-
-.footer-copy {
-  float: left;
-}
-
-.social-icons {
-  float: right;
-}
-
-section {
-	padding: 20px 0;
-}
+/* HERO */
 
 .hero {
   position: relative;
@@ -118,6 +102,37 @@ section {
   background-size: cover;*/
 }
 
+.typing {
+  font-size:4em;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+.typing2 {
+  font-size:1.5em;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+.salams {
+  font-size:1.5em;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+section {
+	padding: 20px 0;
+}
+
+.event-image {
+	margin-top: 20px;
+	max-width: 100%;
+}
 
 .team-box img {
   max-width: 200px;
@@ -128,6 +143,60 @@ section {
 	text-align: left;
 }
 
-#section3{
-	background-color: #87F5FB;
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.cta-btn {
+	vertical-align: middle;
+	font-size: 1.2em;
+	width: 120px;
+}
+
+.goals {
+	margin: 30px 0;
+	padding: 10px;
+	background-color: #efefef;
+	border-radius: 5px;
+}
+
+.contacts {
+	background-color: #efefef;
+	height: auto;
+	padding: 20px;
+	text-align: left;
+}
+
+.borderfy {
+	border: 1px dashed blue;
+}
+
+/* FOOTER */
+
+.footer-copy {
+  float: left;
+	margin-bottom: 20px;
+}
+
+.social-icons a {
+  float: right;
+	margin-left: 30px;
+}
+
+p span {
+	font-size: 0.8em;
+}
+
+/* MAILCHIMP */
+
+.mailchimp-field {
+	height: 50px;;
+	width: 60%;
+}
+
+.mailchimp-btn {
+	height: 50px;
 }

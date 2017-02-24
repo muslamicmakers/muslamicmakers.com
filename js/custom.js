@@ -1,12 +1,14 @@
 $(function(){
-    $(".typed").typed({
-      strings: ["Salams, we're Muslamic Makers."],
-      typeSpeed: 20,
-      backDelay: 1000,
-      showCursor: false
+    $("#typed").typed({
+        // stringsElement: $('#typed-strings')
+        strings: ["Salams*, we're Muslamic Makers ^2000", "We're diversifying the tech scene"]
+    });
+    $("#typed2").typed({
+        // stringsElement: $('#typed-strings')
+        strings: ["^2000 <br> * peace on you"],
+        typeSpeed: 4
     });
 });
-
 
 $(document).ready(function(){
   var height = $('.hero').height();
@@ -14,12 +16,27 @@ $(document).ready(function(){
   $(document).on('scroll', function(){
     var scrolled = $(document).scrollTop() + 30;
     if (scrolled > height) {
-      $('nav').css({"background-color":"#222"});
+      $('nav').addClass('nav-visible');
+      $('nav').removeClass('nav-transparent');
     } else {
-      $('nav').css({"background-color":""});
+      $('nav').addClass('nav-transparent');
+      $('nav').removeClass('nav-visible');
     }
   });
 });
+
+$('.nav-link').click(function(e){
+  e.preventDefault();
+  var hash = this.hash;
+  // var point = $(this).attr('href'));
+  $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+  });
 
 //
 // $(document).on("scroll", function () {
@@ -65,3 +82,11 @@ $(document).ready(function(){
 //     } else if ( calc < '0' ) {
 //       header.css({ 'opacity': 0 });
 //     }
+
+// if (this.attendee.timingHabits === "muslimTiming") {
+//   var startTime = "4.00pm";
+// } else if (this.attendee.timingHabits === "genericEthnicTiming") {
+//   var startTime = "5.00pm";
+// } else {
+//   var startTime = "6.00pm";
+// };
