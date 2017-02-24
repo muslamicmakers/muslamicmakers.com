@@ -1,6 +1,12 @@
 $(function(){
     $("#typed").typed({
-        stringsElement: $('#typed-strings')
+        // stringsElement: $('#typed-strings')
+        strings: ["Salams*, we're Muslamic Makers ^2000", "We're diversifying the tech scene"]
+    });
+    $("#typed2").typed({
+        // stringsElement: $('#typed-strings')
+        strings: ["^2000 <br> * peace on you"],
+        typeSpeed: 4
     });
 });
 

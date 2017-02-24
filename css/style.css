@@ -110,6 +110,13 @@ p {
   padding-top: 40vh;
 }
 
+.typing2 {
+  font-size:1.5em;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
 .salams {
   font-size:1.5em;
   color: #fff;
@@ -120,12 +127,6 @@ p {
 
 section {
 	padding: 20px 0;
-}
-
-.contact {
-	font-size: 1.5em;
-	font-weight: 600;
-	color: #DE3C4B;
 }
 
 .event-image {
@@ -140,6 +141,13 @@ section {
 
 .events {
 	text-align: left;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
 
 .cta-btn {
@@ -157,13 +165,14 @@ section {
 
 .contacts {
 	background-color: #efefef;
-	padding: 10px;
-	height: 250px;
+	height: auto;
+	padding: 20px;
+	text-align: left;
 }
 
-/*.borderfy {
+.borderfy {
 	border: 1px dashed blue;
-}*/
+}
 
 /* FOOTER */
 
