@@ -103,14 +103,17 @@ p {
 }
 
 .typing {
-  font-size:4em;
+  font-size:3em;
   color: #fff;
   margin: 0;
   text-align: center;
   padding-top: 40vh;
+	padding-left: 10vh;
+	padding-right: 10vh;
 }
 
 .typing2 {
+	font-style: italic;
   font-size:1.5em;
   color: #fff;
   margin: 0;
