@@ -26,8 +26,8 @@ section h3 > a {
   /*background-color: #f5bdd0;*/
 }
 
-.profile-img, img {
-  width: 150px;
+.profile-img {
+  width: 120px;
   border-radius: 100px;
 }
 
