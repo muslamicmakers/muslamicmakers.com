@@ -26,6 +26,11 @@ section h3 > a {
   /*background-color: #f5bdd0;*/
 }
 
+.profile-img, img {
+  width: 150px;
+  border-radius: 100px;
+}
+
 .bubble-wrapper {
   clear: both;
 }
