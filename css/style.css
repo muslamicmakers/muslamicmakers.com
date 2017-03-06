@@ -3,7 +3,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h2 { 
+h2 {
   display: inline-block;
   margin: 20px 0;
 }
@@ -175,6 +175,10 @@ input[type='email']:focus {
 
   .bubble p {
     margin: 0;
+  }
+
+  .bubble a {
+    color: #001B44;
   }
 
   .Author1 {
