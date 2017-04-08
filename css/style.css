@@ -18,7 +18,7 @@ section h3 > a {
   color: #151515;
   text-decoration: none;
   padding-bottom: 1px;
-  border-bottom: 1px solid orangered;
+  border-bottom: 1px solid #ff6300;
 }
 
 .chat-window {
@@ -140,6 +140,10 @@ input[type='email']:focus {
 
 .bg-messenger-blue {
   background-color: rgba(0, 132, 255, 1);
+}
+
+.messenger-blue {
+  color: rgba(0, 132, 255, 1);
 }
 
 .map-container iframe {
