@@ -1,9 +1,9 @@
 import { h, render } from 'preact';
+import WhoWeAre from './components/WhoWeAre';
 
 render(
   <div id="foo">
-    <span>Hello, world!</span>
-    <button onClick={e => alert('hi!')}>Click Me</button>
+    <WhoWeAre />
   </div>,
-  document.body
+  document.getElementById('who-are-we')
 );

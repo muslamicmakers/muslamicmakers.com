@@ -21,7 +21,8 @@
   "homepage": "https://github.com/muslamicmakers/site#readme",
   "dependencies": {
     "preact": "^8.3.1",
-    "preact-compat": "^3.18.4"
+    "preact-compat": "^3.18.4",
+    "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
     "babel-preset-preact": "^1.1.0",
