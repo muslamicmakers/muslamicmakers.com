@@ -1,4 +1,4 @@
-import { h, render } from 'preact';
+import { h } from 'preact';
 
 const Card = ({ name, bio, photo, twitter }) => (
   <article className="mw-100 mw6-l mt0-l mh1-l center tc tl-l bg-white br4 pa3 pa4-ns mv3">
