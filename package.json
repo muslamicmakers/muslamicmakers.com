@@ -1,0 +1,30 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Our website, check it out at http://www.muslamicmakers.com 😎",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muslamicmakers/site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muslamicmakers/site/issues"
+  },
+  "homepage": "https://github.com/muslamicmakers/site#readme",
+  "dependencies": {
+    "preact": "^8.3.1",
+    "preact-compat": "^3.18.4"
+  },
+  "devDependencies": {
+    "babel-preset-preact": "^1.1.0",
+    "parcel-bundler": "^1.9.7"
+  }
+}
