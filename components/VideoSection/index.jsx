@@ -7,9 +7,9 @@ class VideoSection extends Component {
 
   componentDidMount() {
     // this gets the embed to actually show up
-    var iframesToDefer = document.querySelectorAll('iframe');
+    const iframesToDefer = document.querySelectorAll('iframe');
     iframesToDefer.forEach(function(iframe) {
-      var dataSrc = iframe.getAttribute('data-src');
+      const dataSrc = iframe.getAttribute('data-src');
       if (dataSrc) iframe.setAttribute('src', dataSrc);
     });
   }
