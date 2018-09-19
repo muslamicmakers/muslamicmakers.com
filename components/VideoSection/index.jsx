@@ -27,9 +27,8 @@ class VideoSection extends Component {
             {this.props.videos.map((video, index) => (
               <div className={videoContainerClassNames[index]}>
                 <iframe
-                  className="br4 vh-25 vh-50-ns"
+                  className="br4 videoContainer"
                   width="100%"
-                  height="500"
                   data-src={video.url}
                   frameborder="0"
                   allowfullscreen

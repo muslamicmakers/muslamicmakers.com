@@ -229,3 +229,13 @@ input[type='email']:focus {
     margin-top: 30px;
   }
 }
+
+.videoContainer {
+  height: 190px;
+}
+
+@media (min-width: 768px) {
+  .videoContainer {
+    height: 560px;
+  }
+}
