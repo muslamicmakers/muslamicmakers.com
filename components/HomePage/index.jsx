@@ -6,6 +6,7 @@ import AboutSection from '../AboutSection';
 import VideoSection from '../VideoSection';
 import WhoAreWeSection from '../WhoAreWeSection';
 import ContactSection from '../ContactSection';
+import Footer from '../footer';
 
 class HomePage extends Component {
   constructor() {
@@ -27,6 +28,7 @@ class HomePage extends Component {
         <VideoSection videos={this.state.data.videoData} />
         <WhoAreWeSection bios={this.state.data.bioData} />
         <ContactSection />
+        <Footer />
       </div>
     ) : null;
   }
