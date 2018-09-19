@@ -23,7 +23,9 @@ class HomePage extends Component {
   render() {
     return this.state.data ? (
       <div>
-        <Header {...this.state.data.headerData} />
+        <header>
+          <Header {...this.state.data.headerData} />
+        </header>
         <AboutSection />
         <VideoSection videos={this.state.data.videoData} />
         <WhoAreWeSection bios={this.state.data.bioData} />
