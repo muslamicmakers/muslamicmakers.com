@@ -2,6 +2,7 @@ import { h, Component } from 'preact';
 import getData from '../../lib/api';
 
 import Header from '../Header';
+import AboutSection from '../AboutSection';
 import VideoSection from '../VideoSection';
 import WhoAreWeSection from '../WhoAreWeSection';
 
@@ -21,6 +22,7 @@ class HomePage extends Component {
     return this.state.data ? (
       <div>
         <Header {...this.state.data.headerData} />
+        <AboutSection />
         <VideoSection videos={this.state.data.videoData} />
         <WhoAreWeSection bios={this.state.data.bioData} />
       </div>
