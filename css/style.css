@@ -69,7 +69,7 @@ section h3 > a {
 
 .Author2 {
   float: left;
-  background-color: rgba(0, 0, 0, .06);
+  background-color: rgba(0, 0, 0, 0.06);
   background-color: white;
   color: black;
 }
@@ -87,7 +87,10 @@ section h3 > a {
   border-top-left-radius: 4px;
 }
 
-.Author1.single, .Author2.single, .Author1.first, .Author2.first {
+.Author1.single,
+.Author2.single,
+.Author1.first,
+.Author2.first {
   margin-top: 15px;
 }
 
@@ -135,7 +138,7 @@ input[type='email']:focus {
 }
 
 .bg-pale-cyan {
-  background-color: #97D2FB;
+  background-color: #97d2fb;
 }
 
 .bg-messenger-blue {
@@ -182,7 +185,7 @@ input[type='email']:focus {
   }
 
   .bubble a {
-    color: #001B44;
+    color: #001b44;
   }
 
   .Author1 {
@@ -207,7 +210,7 @@ input[type='email']:focus {
 
   .Author2 {
     float: left;
-    background-color: rgba(0, 0, 0, .06);
+    background-color: rgba(0, 0, 0, 0.06);
     background-color: white;
     color: black;
   }
@@ -225,7 +228,10 @@ input[type='email']:focus {
     border-top-left-radius: 8px;
   }
 
-  .Author1.single, .Author2.single, .Author1.first, .Author2.first {
+  .Author1.single,
+  .Author2.single,
+  .Author1.first,
+  .Author2.first {
     margin-top: 30px;
   }
 }
