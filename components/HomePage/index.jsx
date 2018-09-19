@@ -1,6 +1,7 @@
 import { h, Component } from 'preact';
 import getData from '../../lib/api';
 
+import Nav from '../Nav';
 import Header from '../Header';
 import AboutSection from '../AboutSection';
 import VideoSection from '../VideoSection';
@@ -24,6 +25,7 @@ class HomePage extends Component {
     return this.state.data ? (
       <div>
         <header>
+          <Nav />
           <Header {...this.state.data.headerData} />
         </header>
         <AboutSection />
