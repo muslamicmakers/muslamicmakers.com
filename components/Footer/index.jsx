@@ -3,7 +3,7 @@ import { h } from 'preact';
 const Footer = () => (
   <footer class="lh-copy bg-navy">
     <div class="mw8 center silver flex-ns justify-between center tc tl-ns pv4 ph3">
-      <p class="ma0 white">&#169 Copyright 2017, Muslamic Makers</p>
+      <p class="ma0 white">&copy; Copyright 2018, Muslamic Makers</p>
 
       <div class="social-icons dib mt3 mt0-ns">
         <a href="http://facebook.com/muslamicmakers">
