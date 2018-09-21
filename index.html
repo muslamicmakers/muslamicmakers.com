@@ -15,33 +15,6 @@
 
 <body>
 
-  <section class="lh-copy pv2 pt5-ns pb6-ns tc tl-ns">
-    <div class="mw8 center ph3">
-      <h2 class="f5 tracked ttu black">Next event</h2>
-
-      <div class="flex-ns justify-between">
-
-        <div class="measure-narrow-ns mr5-ns center">
-          <h3 class="f3 ma0 mb3"><a class="navy" href="https://www.eventbrite.co.uk/e/muslamic-makers-2nd-birthday-tickets-43551126592">Muslamic Makers 2nd Birthday</a></h3>
-          <p class="b ma0 mb1 white bg-orange ttu tracked f6 dib pa2">Tuesday 20th March @ 6:30pm</p>
-          <a class="b ma0 white bg-messenger-blue ttu tracked f6 dib pa2 no-underline" href="https://goo.gl/maps/s4GP1e38Kdx">WorldRemit</a>
-
-          <div class="f5 f4-ns mv4 navy tl ph2 ph0-ns">
-            <p>This year we are blessed to be able to celebrate 2 years of Muslamic Makers. Since our beginnings back in 2016 we have put on 14 events, hosted over 800 people and spotlighted a number of businesses and initiatives in the Muslim community.</p>
-            <p>Our next event will be celebrating our community and the growth of Muslamic Makers. We would like to use this as an opportunity to thank you for all your support as without you, there would be no community. Join us for an evening of reflections, celebrations and networking with fellow Muslamic Makers.</p>
-          </div>
-
-          <a class="f4 tc br3 link dim w-100 mt1 mt4-ns ph3 pv3 dib white bg-messenger-blue b" href="https://www.eventbrite.co.uk/e/muslamic-makers-2nd-birthday-tickets-43551126592">Get tickets</a>
-          <!--<a class="f5 f4-ns tc br3 link w-100 mt1 mt4-ns ph3 pv3 dib white bg-gray b disabled">SOLD OUT&nbsp;&nbsp;:(</a>-->
-        </div>
-
-        <div class="map-container" style="flex-grow: 1;">
-          <iframe class="map-iframe br4-ns shadow-2-ns mt3 mt0-ns" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.9221979193353!2d-0.13669679774571314!3d51.49772289822852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604de9665671b%3A0xd72127380ff4112!2s62+Buckingham+Gate%2C+Westminster%2C+London+SW1E+6PA!5e0!3m2!1sen!2suk!4v1519940610037"
-            width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-  </section>
-
   <div id="app"></div>
 
   <!--<section id="sponsors">
@@ -59,32 +32,6 @@
       </div>
     </div>
   </section>-->
-
-  <script>
-    document.querySelector('.map-container')
-      .addEventListener('click', function (e) {
-        document.querySelector('.map-iframe')
-          .classList.add('clicked');
-      });
-
-    document.querySelector('.map-container')
-      .addEventListener('mouseleave', function (e) {
-        document.querySelector('.map-iframe')
-          .classList.remove('clicked');
-      });
-  </script>
-
-  <script>
-    // defer maps and youtube js
-    function init() {
-      var iframesToDefer = document.querySelectorAll('iframe');
-      iframesToDefer.forEach(function(iframe) {
-        var dataSrc = iframe.getAttribute('data-src');
-        if (dataSrc) iframe.setAttribute('src', dataSrc);
-      })
-    }
-    window.onload = init;
-  </script>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
