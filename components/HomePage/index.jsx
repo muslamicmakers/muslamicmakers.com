@@ -3,6 +3,7 @@ import getData from '../../lib/api';
 
 import Nav from '../Nav';
 import Header from '../Header';
+import EventbriteSection from '../EventbriteSection';
 import AboutSection from '../AboutSection';
 import VideoSection from '../VideoSection';
 import WhoAreWeSection from '../WhoAreWeSection';
@@ -28,6 +29,7 @@ class HomePage extends Component {
           <Nav />
           <Header {...this.state.data.headerData} />
         </header>
+        <EventbriteSection event={this.state.data.eventbriteData} />
         <AboutSection />
         <VideoSection videos={this.state.data.videoData} />
         <WhoAreWeSection bios={this.state.data.bioData} />
