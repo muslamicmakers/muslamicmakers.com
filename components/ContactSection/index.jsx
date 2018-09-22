@@ -8,14 +8,12 @@ const ContactSection = () => (
           <h2 className="f5 tracked ttu ma0-ns">Get in touch</h2>
           <p className="mv0 mv3-ns">
             We're always looking to collaborate with tech companies to host
-            events. If you're up for hosting or just want to talk, drop us a
-            line:
-          </p>
-          <h3>
+            events. If you're up for hosting or just want to talk,{' '}
             <a href="mailto:muslamicmakers@gmail.com" className="navy f5 f4-ns">
-              muslamicmakers@gmail.com
+              drop us an email
             </a>
-          </h3>
+            .
+          </p>
         </div>
 
         <div className="fl w-100 w-50-ns pr2-ns pl4-ns mt5 mv0-ns">
