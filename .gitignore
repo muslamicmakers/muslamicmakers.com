@@ -1,4 +1,5 @@
+.cache
+.env
 .DS_Store
-node_modules/
-.cache/
-dist/
+dist
+node_modules
