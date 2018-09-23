@@ -69,7 +69,7 @@ section h3 > a {
 
 .Author2 {
   float: left;
-  background-color: rgba(0, 0, 0, .06);
+  background-color: rgba(0, 0, 0, 0.06);
   background-color: white;
   color: black;
 }
@@ -87,7 +87,10 @@ section h3 > a {
   border-top-left-radius: 4px;
 }
 
-.Author1.single, .Author2.single, .Author1.first, .Author2.first {
+.Author1.single,
+.Author2.single,
+.Author1.first,
+.Author2.first {
   margin-top: 15px;
 }
 
@@ -135,7 +138,7 @@ input[type='email']:focus {
 }
 
 .bg-pale-cyan {
-  background-color: #97D2FB;
+  background-color: #97d2fb;
 }
 
 .bg-messenger-blue {
@@ -144,14 +147,6 @@ input[type='email']:focus {
 
 .messenger-blue {
   color: rgba(0, 132, 255, 1);
-}
-
-.map-container iframe {
-  pointer-events: none;
-}
-
-.map-container iframe.clicked {
-  pointer-events: auto;
 }
 
 #mc-embedded-subscribe {
@@ -182,7 +177,7 @@ input[type='email']:focus {
   }
 
   .bubble a {
-    color: #001B44;
+    color: #001b44;
   }
 
   .Author1 {
@@ -207,7 +202,7 @@ input[type='email']:focus {
 
   .Author2 {
     float: left;
-    background-color: rgba(0, 0, 0, .06);
+    background-color: rgba(0, 0, 0, 0.06);
     background-color: white;
     color: black;
   }
@@ -225,7 +220,70 @@ input[type='email']:focus {
     border-top-left-radius: 8px;
   }
 
-  .Author1.single, .Author2.single, .Author1.first, .Author2.first {
+  .Author1.single,
+  .Author2.single,
+  .Author1.first,
+  .Author2.first {
     margin-top: 30px;
+  }
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.event-description {
+  white-space: pre-line;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.details-container-ended {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.event-ended {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: 9999;
+
+  width: 100%;
+  padding: 6px 20px;
+
+  font-size: 50px;
+  background-color: #ff4136;
+  color: white;
+}
+
+.event-ended .emoji {
+  font-size: 40px;
+}
+
+@media screen and (min-width: 30em) {
+  .event-ended {
+    top: 45%;
+    left: 50%;
+    width: initial;
+    transform: translateX(-50%) rotate(-20deg);
   }
 }
