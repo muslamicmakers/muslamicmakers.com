@@ -9,7 +9,7 @@ import AboutSection from '../AboutSection';
 import VideoSection from '../VideoSection';
 import WhoAreWeSection from '../WhoAreWeSection';
 import ContactSection from '../ContactSection';
-import Footer from '../footer';
+import Footer from '../Footer';
 
 class HomePage extends Component {
   constructor() {
