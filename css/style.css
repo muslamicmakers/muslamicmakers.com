@@ -265,18 +265,23 @@ input[type='email']:focus {
   position: absolute;
   top: 30%;
   left: 0;
+  right: 0;
+  margin: auto;
   z-index: 9999;
 
   width: 100%;
-  padding: 6px 20px;
+}
 
-  font-size: 50px;
-  background-color: #ff4136;
-  color: white;
+.event-ended h3 {
+  display: inline;
+  padding: 6px 20px;
+  background-color: #aeb3b7;
+  color: #fff;
+  font-size: 30px;
 }
 
 .event-ended .emoji {
-  font-size: 40px;
+  font-size: 28px;
 }
 
 @media screen and (min-width: 30em) {
@@ -284,6 +289,15 @@ input[type='email']:focus {
     top: 45%;
     left: 50%;
     width: initial;
+    text-align: center;
     transform: translateX(-50%) rotate(-20deg);
+  }
+
+  .event-ended h3 {
+    font-size: 50px;
+  }
+
+  .event-ended .emoji {
+    font-size: 40px;
   }
 }

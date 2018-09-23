@@ -11,9 +11,11 @@ const EventbriteSection = ({ event }) => {
         <h2 className="f5 tracked ttu black">Next event</h2>
 
         {event.ended && (
-          <h3 className="event-ended">
-            Event ended <span className="emoji">😢</span>
-          </h3>
+          <div class="event-ended">
+            <h3>
+              Event ended <span className="emoji">😢</span>
+            </h3>
+          </div>
         )}
 
         <div className={detailsContainerClasses}>
