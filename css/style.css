@@ -255,3 +255,35 @@ input[type='email']:focus {
   justify-content: center;
   margin: 50px;
 }
+
+.details-container-ended {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.event-ended {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: 9999;
+
+  width: 100%;
+  padding: 6px 20px;
+
+  font-size: 50px;
+  background-color: #ff4136;
+  color: white;
+}
+
+.event-ended .emoji {
+  font-size: 40px;
+}
+
+@media screen and (min-width: 30em) {
+  .event-ended {
+    top: 45%;
+    left: 50%;
+    width: initial;
+    transform: translateX(-50%) rotate(-20deg);
+  }
+}
