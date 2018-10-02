@@ -13,7 +13,7 @@ const AboutSection = () => (
       <div className="bubble-wrapper">
         <div className="bubble Author2 first lh-title f4">
           <p>
-            Salams!... &#40;don't panic,
+            Salams!... &#40;don't panic,{' '}
             <a
               href="https://en.wikipedia.org/wiki/As-salamu_alaykum"
               target="_blank"
