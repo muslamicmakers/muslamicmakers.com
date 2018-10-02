@@ -1,4 +1,14 @@
 import { h, render } from 'preact';
-import HomePage from './components/HomePage';
+import Router from 'preact-router';
 
-render(<HomePage />, document.getElementById('app'));
+import HomePage from './components/HomePage';
+import Manifesto from './components/Manifesto/index';
+
+const Main = () => (
+  <Router>
+    <HomePage path="/" />
+    <Manifesto path="/manifesto" />
+  </Router>
+);
+
+render(<Main />, document.body);
