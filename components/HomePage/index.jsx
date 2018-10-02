@@ -18,26 +18,12 @@ class HomePage extends Component {
   }
 
   componentDidMount() {
-    const sessionData = window.sessionStorage.getItem('data');
-    const sessionEventbrite = window.sessionStorage.getItem('eventbriteData');
-
-    if (sessionData && sessionEventbrite) {
-      this.setState({ data: JSON.parse(sessionData) });
-      this.setState({ eventbrite: JSON.parse(sessionEventbrite) });
-    } else {
-      getData.then(data => {
-        window.sessionStorage.setItem('data', JSON.stringify(data));
-        this.setState({ data });
-      });
-
-      getEventbrite.then(eventbrite => {
-        window.sessionStorage.setItem(
-          'eventbriteData',
-          JSON.stringify(eventbrite)
-        );
-        this.setState({ eventbrite });
-      });
-    }
+    getData
+      .then(data => this.setState({ data }))
+      .catch(error => console.error(error));
+    getEventbrite
+      .then(eventbrite => this.setState({ eventbrite }))
+      .catch(error => console.error(error));
   }
 
   render() {
