@@ -12,7 +12,7 @@ const Header = ({ text }) => (
         </p>
         <div class="social-icons">
           <a href="https://www.instagram.com/muslamicmakers">
-            <i class="fa fa-instagram fa-2x navy pr2 dim" aria-hidden="true" />
+            <i class="fa fa-instagram fa-2x navy dim" aria-hidden="true" />
           </a>
           <a href="https://twitter.com/muslamicmakers">
             <i
@@ -22,7 +22,7 @@ const Header = ({ text }) => (
           </a>
           <a href="http://facebook.com/muslamicmakers">
             <i
-              class="fa fa-facebook-square fa-2x navy dim"
+              class="fa fa-facebook-square fa-2x navy pr2 dim"
               aria-hidden="true"
             />
           </a>
