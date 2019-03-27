@@ -11,11 +11,8 @@ const Header = ({ text }) => (
           {text}
         </p>
         <div class="social-icons">
-          <a href="http://facebook.com/muslamicmakers">
-            <i
-              class="fa fa-facebook-square fa-2x navy dim"
-              aria-hidden="true"
-            />
+          <a href="https://www.instagram.com/muslamicmakers">
+            <i class="fa fa-instagram fa-2x navy pr2 dim" aria-hidden="true" />
           </a>
           <a href="https://twitter.com/muslamicmakers">
             <i
@@ -23,8 +20,11 @@ const Header = ({ text }) => (
               aria-hidden="true"
             />
           </a>
-          <a href="http://muslamicmakers.herokuapp.com/?mc_cid=ffa98110a4&mc_eid=7b45ae9314">
-            <i class="fa fa-slack fa-2x navy pr2 dim" aria-hidden="true" />
+          <a href="http://facebook.com/muslamicmakers">
+            <i
+              class="fa fa-facebook-square fa-2x navy dim"
+              aria-hidden="true"
+            />
           </a>
           <a href="https://github.com/muslamicmakers">
             <i class="fa fa-github fa-2x navy dim" aria-hidden="true" />
