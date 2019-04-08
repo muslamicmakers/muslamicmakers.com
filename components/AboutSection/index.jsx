@@ -26,7 +26,7 @@ const AboutSection = () => (
       </div>
       <div className="bubble-wrapper">
         <div className="bubble Author2 cont lh-title f4">
-          <p>It's a monthly meetup for muslims working in tech</p>
+          <p>It's a meetup for muslims working in tech</p>
         </div>
       </div>
       <div className="bubble-wrapper">

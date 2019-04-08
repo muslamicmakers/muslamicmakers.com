@@ -27,8 +27,8 @@ const Manifesto = () => {
                     className="f4 f2-ns b mt3 measure-narrow center"
                     style="color:#30afff;"
                   >
-                    A monthly meetup bringing Muslim and non-Muslim makers
-                    together to discuss, pitch and share ideas
+                    A meetup bringing Muslim and non-Muslim makers together to
+                    discuss, pitch and share ideas
                   </p>
                   <div class="social-icons">
                     <a href="https://www.instagram.com/muslamicmakers">
