@@ -27,30 +27,27 @@ const Manifesto = () => (
                   A monthly meetup bringing Muslim and non-Muslim makers
                   together to discuss, pitch and share ideas
                 </p>
-                <div className="social-icons">
-                  <a href="http://facebook.com/muslamicmakers">
+                <div class="social-icons">
+                  <a href="https://www.instagram.com/muslamicmakers">
                     <i
-                      className="fa fa-facebook-square fa-2x navy dim"
+                      class="fa fa-instagram fa-2x navy dim"
                       aria-hidden="true"
                     />
                   </a>
                   <a href="https://twitter.com/muslamicmakers">
                     <i
-                      className="fa fa-twitter-square fa-2x navy ph2 dim"
+                      class="fa fa-twitter-square fa-2x navy ph2 dim"
                       aria-hidden="true"
                     />
                   </a>
-                  <a href="http://muslamicmakers.herokuapp.com/?mc_cid=ffa98110a4&mc_eid=7b45ae9314">
+                  <a href="http://facebook.com/muslamicmakers">
                     <i
-                      className="fa fa-slack fa-2x navy pr2 dim"
+                      class="fa fa-facebook-square fa-2x navy pr2 dim"
                       aria-hidden="true"
                     />
                   </a>
                   <a href="https://github.com/muslamicmakers">
-                    <i
-                      className="fa fa-github fa-2x navy dim"
-                      aria-hidden="true"
-                    />
+                    <i class="fa fa-github fa-2x navy dim" aria-hidden="true" />
                   </a>
                 </div>
               </div>
