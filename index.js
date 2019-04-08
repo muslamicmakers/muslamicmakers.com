@@ -7,7 +7,7 @@ import Manifesto from './components/Manifesto';
 const Main = () => (
   <Router>
     <HomePage path="/" />
-    <Manifesto path="/manifesto.html" />
+    <Manifesto path="/manifesto" />
   </Router>
 );
 
