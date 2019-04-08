@@ -1,13 +1,17 @@
 import { h, render } from 'preact';
-import Router from 'preact-router';
+import { Router, Redirect } from '@reach/router';
 
 import HomePage from './components/HomePage';
 import Manifesto from './components/Manifesto';
 
+const NotFound = () => <div>404 - Sorry, nothing here :(</div>;
+
 const Main = () => (
   <Router>
     <HomePage path="/" />
-    <Manifesto path="/manifesto.html" />
+    <Redirect from="/manifesto.html" to="/manifesto" noThrow />
+    <Manifesto path="/manifesto" />
+    <NotFound default />
   </Router>
 );
 

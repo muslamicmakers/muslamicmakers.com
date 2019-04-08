@@ -1,4 +1,7 @@
 import { h } from 'preact';
+import { Link } from '@reach/router';
+
+import Manifesto from '../Manifesto/';
 
 const Nav = () => (
   <nav className="dt-ns w-100">
@@ -23,12 +26,9 @@ const Nav = () => (
       >
         Contact
       </a>
-      <a
-        className="f5 fw4 no-underline navy dib pv2 ph3"
-        href="/manifesto.html"
-      >
+      <Link to="/manifesto" className="f5 fw4 no-underline navy dib pv2 ph3">
         Manifesto
-      </a>
+      </Link>
     </div>
   </nav>
 );
